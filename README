@@ -9,8 +9,7 @@ Haml mode depends on haml gem to be installed
 sudo gem install haml 
 ---
 create following in your home folder.
-create a .snippets directory - mine is symlinked to a folder where i collect snippets
-github has a bunch of repositories for yasnippets.
+create a .snippets directory - mine is symlink to git clone git://github.com/eschulte/yasnippets-rails.git
 ---
 aakash@aakash-ubuntu:~$ cd .emacs.d
 aakash@aakash-ubuntu:~/.emacs.d$ ./install.sh
