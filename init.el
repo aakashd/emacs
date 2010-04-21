@@ -67,7 +67,7 @@
 (require 'anything)
 (require 'anything-show-completion)
 ;; VC
-(require 'dvc-init)
+;;(require 'dvc-init)
 (require 'magit-init)
 
 (require 'twit-el-init)
