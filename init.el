@@ -67,7 +67,7 @@
 (require 'anything)
 (require 'anything-show-completion)
 ;; VC
-;;(require 'dvc-init)
+(require 'dvc-init)
 (require 'magit-init)
 
 (require 'twit-el-init)
@@ -111,6 +111,8 @@
 (require 'ansi-color)
 (require 'recentf)
 (require 'ido)
+(ido-mode t)
+(setq ido-enable-flex-matching t) ;; enable fuzzy matching
 (org-mode)
 (color-theme-zen-and-art)
 (put 'dired-find-alternate-file 'disabled nil)
