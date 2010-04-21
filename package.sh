@@ -19,8 +19,7 @@ function emacsMake() {
 	then
 		cd $1;autoconf && ./configure;cd -
 		make -s -C $1
-	else
-		emacs -batch -f batch-byte-compile $1/*.el
+		make install -s -C $1
 	fi		
 	echoWithBars  $1 + "completed "
 }
