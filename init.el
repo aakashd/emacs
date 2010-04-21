@@ -60,14 +60,14 @@
 (require 'linum-init)
 (require 'highlight-current-line)
 (require 'duplicate-line)
-(require 'growl-init)
+;;(require 'growl-init)
 (require 'yas-init)
 (require 'browse-kill-ring-init)
 (require 'autocomplete-init)
 (require 'anything)
 (require 'anything-show-completion)
 ;; VC
-(require 'dvc-init)
+;;(require 'dvc-init)
 (require 'magit-init)
 
 (require 'twit-el-init)
@@ -81,7 +81,7 @@
 (require 'rsense-init)
 (require 'ri-emacs-init)
 (require 'rspec-init)
-(require 'textmate-init)
+;;(require 'textmate-init)
 (require 'rcodetools)
 (require 'anything-rcodetools)
 ;; Rails
@@ -89,10 +89,10 @@
 ;;(require 'haml-init)
 
 ;;(require 'php-mode)
-(require 'slime-init)
-(require 'clojure-init)
-(require 'distel-init)
-(require 'haskell-init)
+;;(require 'slime-init)
+;;(require 'clojure-init)
+;;(require 'distel-init)
+;;(require 'haskell-init)
 
 ;;Color
 (require 'color-theme-init)

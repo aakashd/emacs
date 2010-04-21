@@ -69,7 +69,7 @@
 	url = git://github.com/eschulte/rinari.git
 [submodule "packages/cedet"]
 	path = packages/cedet
-	url = git://github.com/emacsmirror/cedet.git
+	url = git://github.com/imondragon/cedet-1.0pre6.git
 [submodule "packages/ecb"]
 	path = packages/ecb
 	url = git://github.com/emacsmirror/ecb.git
