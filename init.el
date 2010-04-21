@@ -67,7 +67,7 @@
 (require 'anything)
 (require 'anything-show-completion)
 ;; VC
-;;(require 'dvc-init)
+(require 'dvc-init)
 (require 'magit-init)
 
 (require 'twit-el-init)
@@ -97,8 +97,8 @@
 ;;Color
 (require 'color-theme-init)
 ;;(require 'inkpot-init)
-;;(require 'zenburn-init)
-;;(require 'twilight-init)
+(require 'zenburn-init)
+(require 'twilight-init)
 (require 'zen-init)
 
 (load "~/.emacs.d/packages/nxhtml/autostart.el")

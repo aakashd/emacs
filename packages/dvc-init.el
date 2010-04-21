@@ -1,3 +1,2 @@
-(add-to-list 'load-path "~/.emacs.d/packages/dvc/lisp")
-(require 'dvc-autoloads)
+(load-file "~/.emacs.d/packages/dvc/dvc-load.el")
 (provide 'dvc-init)
