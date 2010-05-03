@@ -37,10 +37,10 @@
 (setq *textmate-gf-exclude*
   "/\\.|vendor|fixtures|tmp|log|build|\\.xcodeproj|\\.nib|\\.framework|\\.app|\\.pbproj|\\.pbxproj|\\.xcode|\\.xcodeproj|\\.bundle|\\.pyc|\\.elc|\\.jar|\\.class")
 (setq auto-mode-alist (cons '("Rakefile$" . ruby-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '(".haml$" . haml-mode) auto-mode-alist))
 (setq highlight-current-line-globally t)
 (setq initial-scratch-message nil)
 (setq rct-get-all-methods-command "PAGER=cat fri -l")
-
 
 (set-frame-width (selected-frame) 200)
 (set-frame-height (selected-frame) 100)
@@ -81,7 +81,8 @@
 (require 'rsense-init)
 (require 'ri-emacs-init)
 (require 'rspec-init)
-;;(require 'textmate-init)
+(require 'textmate-init)
+(require 'textile-mode)
 (require 'rcodetools)
 (require 'anything-rcodetools)
 ;; Rails
@@ -89,10 +90,10 @@
 ;;(require 'haml-init)
 
 ;;(require 'php-mode)
-;;(require 'slime-init)
-;;(require 'clojure-init)
+(require 'slime-init)
+(require 'clojure-init)
 ;;(require 'distel-init)
-;;(require 'haskell-init)
+(require 'haskell-init)
 
 ;;Color
 (require 'color-theme-init)
@@ -116,7 +117,7 @@
 (org-mode)
 (color-theme-zen-and-art)
 (put 'dired-find-alternate-file 'disabled nil)
-
+ 
 (load-file "~/.emacs.d/custom.el")
 (load-file "~/.emacs.d/key-bindings.el")
 (ecb-toggle-ecb-windows)
