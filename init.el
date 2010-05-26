@@ -19,7 +19,7 @@
 	(split-string 
 	(shell-command-to-string (concat "cat ~/." setting-name)) 
 	"\n" t))
-(setq ecb-source-path (my-settings-for "work_dirs"))
+;;(setq ecb-source-path (my-settings-for "work_dirs"))
 (setq exec-path (append (mapcar 'expand-file-name (split-string
 			(car (my-settings-for "paths")) ":")) exec-path))
 
@@ -56,7 +56,7 @@
 (require 'cl)
 ;; Common
 (require 'ack)
-(require 'ecb-init)
+;;(require 'ecb-init)
 (require 'linum-init)
 (require 'highlight-current-line)
 (require 'duplicate-line)
@@ -91,9 +91,9 @@
 
 ;;(require 'php-mode)
 (require 'slime-init)
-(require 'clojure-init)
+;;(require 'clojure-init)
 ;;(require 'distel-init)
-(require 'haskell-init)
+;;(require 'haskell-init)
 
 ;;Color
 (require 'color-theme-init)
@@ -113,12 +113,15 @@
 (require 'recentf)
 (require 'ido)
 (ido-mode t)
-(setq ido-enable-flex-matching t) ;; enable fuzzy matching
+;;(setq ido-enable-flex-matching t) ;; enable fuzzy matching
 (org-mode)
 (color-theme-zen-and-art)
 (put 'dired-find-alternate-file 'disabled nil)
  
 (load-file "~/.emacs.d/custom.el")
 (load-file "~/.emacs.d/key-bindings.el")
-(ecb-toggle-ecb-windows)
+;;(ecb-toggle-ecb-windows)
 (put 'set-goal-column 'disabled nil)
+
+(setq x-select-enable-clipboard t)
+(set-face-attribute 'default nil :height 90)

@@ -4,11 +4,12 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(ecb-activation-selects-ecb-frame-if-already-active t)
- '(ecb-compilation-buffer-names (quote (("*slime-repl clojure*")("*vc*") ("*vc-diff*") ("*anything*") ("*Apropos*") ("*eshell*") ("*Occur*") ("*shell*" . t) ("\\*[cC]ompilation.*\\*" . t) ("\\*i?grep.*\\*" . t) ("*Help*") ("*Completions*") ("*Backtrace*") ("*Compile-log*") ("*Messages*") ("*magit: " . t))))
+ '(ecb-compilation-buffer-names (quote (("*slime-repl clojure*") ("*vc*") ("*vc-diff*") ("*anything*") ("*Apropos*") ("*eshell*") ("*Occur*") ("*shell*" . t) ("\\*[cC]ompilation.*\\*" . t) ("\\*i?grep.*\\*" . t) ("*Help*") ("*Completions*") ("*Backtrace*") ("*Compile-log*") ("*Messages*") ("*magit: " . t))))
  '(ecb-compile-window-height 6)
  '(ecb-compile-window-temporally-enlarge (quote both))
  '(ecb-compile-window-width (quote frame))
  '(ecb-layout-name "left7")
+ '(ecb-layout-window-sizes nil)
  '(ecb-maximize-ecb-window-after-selection t)
  '(ecb-mode-line-display-window-number nil)
  '(ecb-options-version "2.40")
@@ -26,5 +27,4 @@
   ;; Your init file should contain only one such instance.
   ;; If there is more than one, they won't work right.
  '(mumamo-background-chunk-major ((((class color) (min-colors 88) (background dark)) (:background "#2A2828"))))
- '(mumamo-background-chunk-submode1 ((((class color) (min-colors 88) (background dark)) (:background "#373436"))))
-)
+ '(mumamo-background-chunk-submode1 ((((class color) (min-colors 88) (background dark)) (:background "#373436")))))

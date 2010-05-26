@@ -23,9 +23,7 @@
 (global-set-key "\C-cy" 'browse-kill-ring)
 
 (global-set-key (kbd "ESC M-a") 'ack)
-
-
-
+(setq x-alt-keysym 'meta)
 
 
 
