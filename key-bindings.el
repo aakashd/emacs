@@ -28,8 +28,9 @@
 
 (global-set-key [M-backspace] 'delete-region)
 
+(global-set-key "\C-ca" 'mark-whole-buffer)
 
-
+(global-set-key "\C-z" 'undo)
 
 
 

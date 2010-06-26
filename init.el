@@ -97,7 +97,7 @@
 
 ;;Color
 (require 'color-theme-init)
-;;(require 'inkpot-init)
+(require 'inkpot-init)
 (require 'zenburn-init)
 (require 'twilight-init)
 (require 'zen-init)
@@ -128,3 +128,6 @@
 
 (line-number-mode)
 (column-number-mode)
+(setq-default indent-tabs-mode nil)
+(set-scroll-bar-mode 'right)
+(setq frame-title-format '(buffer-file-name "%f" ("%b")))
